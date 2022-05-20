@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import SingleCard from "./Card/SingleCard";
 import NavBar from "./NavBar";
+import TotalDoners from "./TotalDoners";
 
 const Dashboard = () => {
   return (
@@ -16,7 +17,10 @@ const Dashboard = () => {
           <SingleCard number="5" bloodGroup="A+" />
           <SingleCard number="5" bloodGroup="A+" />
         </div>
-        <div className="row__two">part 2</div>
+        <div className="row__two">part 2
+        
+        <TotalDoners/>
+        </div>
       </div>
     </Section>
   );
